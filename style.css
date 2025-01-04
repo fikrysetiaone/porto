@@ -121,7 +121,7 @@ a{
 
 /* STYLES FOR PHONE */
 
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
 
     .navLinks{
         display: none;
