@@ -287,9 +287,24 @@ a{
         height: 60vh;
     }
 
+    .cardExpertise h3{
+        font-size: 1.1rem;
+        color: white;
+        margin-bottom: 10px;
+    }
+
     #techs h1{
         color: white;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
+    }
+
+    #techs h2{
+        color: #f7de00;
+        font-size: 1.2rem;
+    }
+
+    #techs h4{
+        font-size: 0.7rem;
     }
 
     .techDivider{
@@ -300,6 +315,7 @@ a{
     #portfolioShowcase h1{
         color: #1e1e1e;
         font-size: 2rem;
+        text-align: center;
     }
 
     .portoCardsContainer{
