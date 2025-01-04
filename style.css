@@ -208,7 +208,7 @@ a{
 }
 
 .portoCard{
-    width: 55vh;
+    width: 25vw;
     height: 50vh;
     border-radius: 25px;
     margin: 20px;
@@ -328,7 +328,7 @@ a{
     }
 
     .portoCard{
-        width: 35vh;
+        width: 80vw;
         height: 30vh;
         border-radius: 25px;
         margin: 20px;
