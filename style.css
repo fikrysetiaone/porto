@@ -45,22 +45,45 @@ a{
     margin: 0px 20px;
     padding: 200px 0;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 25vh;
+    gap: 20vh;
 }
 
 .imgProfile img{
-    margin: 0 20px;
+    margin: 0 50px;
     width: 40vh;
     border-radius: 50%;
 }
 
 .profileDesc{
-    margin: 0 20px;
+    margin: 0 50px;
     color: white;
     width: 60vh;
     font-size: 18px;
     text-align: justify;
 }
+
+
+
+@media (max-width: 1200px) {
+
+    .navLinks{
+        display: none;
+    }
+
+    .aboutMe{
+        background-color: #1e1e1e;
+        border-radius: 25px;
+        margin: 0px 50px;
+        padding: 100px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10vh;
+    }
+
+  }
+
