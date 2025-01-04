@@ -266,6 +266,12 @@ a{
         gap: 20px;
     }
 
+    .socMedCard{
+        width: 33px;
+        height: 33px;
+        border-radius: 10px;
+    }
+
     .cardsContainer{
         display: flex;
         flex-direction: column;
