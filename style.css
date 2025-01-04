@@ -76,7 +76,7 @@ a{
     .aboutMe{
         background-color: #1e1e1e;
         border-radius: 25px;
-        margin: 0px 50px;
+        margin: 0px 20px;
         padding: 100px 0;
         display: flex;
         flex-direction: column;
