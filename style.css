@@ -15,7 +15,6 @@ a{
 }
 
 .navbar{
-    /* background-color: rgb(85, 85, 85); */
     margin: 0 20px;
     padding: 10px 20px;
     height: 100px;
@@ -26,7 +25,7 @@ a{
 }
 
 .navbar h1{
-    font-size: 35px;
+    font-size: 2rem;
 }
 
 .navbar a{
@@ -36,19 +35,18 @@ a{
 .navLinks{
     display: flex;
     gap: 50px;
-    font-size: 22px;
+    font-size: 1.4rem;
 }
 
-.aboutMe{
+#aboutMe{
     background-color: #1e1e1e;
     border-radius: 25px;
     margin: 0px 20px;
     padding: 200px 0;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20vh;
+    gap: 10vh;
 }
 
 .imgProfile img{
@@ -61,29 +59,117 @@ a{
     margin: 0 50px;
     color: white;
     width: 60vh;
-    font-size: 18px;
+    font-size: 1.2rem;
     text-align: justify;
 }
 
+.profileDesc h3{
+    color: #f7de00;
+}
+
+#expertise{
+    border-radius: 25px;
+    margin: 10px 20px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+}
+
+#expertise h1{
+    font-size: 3rem;
+}
+
+.cardsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    gap: 5vh;
+}
+
+.cardExpertise{
+    background-color: #1e1e1e;
+    border-radius: 25px;
+    width: 55vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cardExpertise h3{
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cardExpertise img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+
+.expertiseImageContainer{
+    width: 100%;
+    height: 90%;
+}
 
 
-@media (max-width: 1200px) {
+/* STYLES FOR PHONE */
+
+@media (max-width: 576px) {
 
     .navLinks{
         display: none;
     }
 
-    .aboutMe{
+    #aboutMe{
         background-color: #1e1e1e;
         border-radius: 25px;
         margin: 0px 20px;
-        padding: 100px 0;
+        padding: 80px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10vh;
+        gap: 5vh;
+    }
+
+    .imgProfile img{
+        margin: 0 50px;
+        width: 25vh;
+        border-radius: 50%;
+    }
+
+    .profileDesc{
+        margin: 0 40px;
+        color: white;
+        width: 40vh;
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .profileDesc h1, h3{
+        text-align: center;
+    }
+
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 20px;
+        gap: 5vh;
+    }
+
+    .cardExpertise{
+        background-color: #1e1e1e;
+        border-radius: 25px;
+        width: 45vh;
+        height: 60vh;
     }
 
   }
-
