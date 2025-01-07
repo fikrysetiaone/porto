@@ -110,7 +110,7 @@ a{
 .cardExpertise{
     background-color: #1e1e1e;
     border-radius: 25px;
-    width: 55vh;
+    width: 30vw;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -221,11 +221,45 @@ a{
     object-fit: cover;
 }
 
+#footer{
+    background-color: #1e1e1e;
+    border-radius: 25px 25px 0 0;
+    margin: 0px 20px;
+    padding: 20px 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10vh; */
+    color: white;
+}
+
+#footer h3{
+    color: white;
+}
+
+#footer a{
+    background-color: white;
+    color: #1e1e1e;
+    padding: 3px;
+    border-radius: 10px;
+}
+
 
 /* STYLES FOR PHONE */
 
-@media (max-width: 1200px) {
+@media (max-aspect-ratio: 20/10) {
 
+    .navbar{
+        margin: 0 20px;
+        padding: 10px 20px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+    
     .navLinks{
         display: none;
     }
@@ -251,7 +285,7 @@ a{
     .profileDesc{
         margin: 0 40px;
         color: white;
-        width: 40vh;
+        width: 80%;
         font-size: 1rem;
         text-align: justify;
     }
@@ -283,8 +317,8 @@ a{
     .cardExpertise{
         background-color: #1e1e1e;
         border-radius: 25px;
-        width: 45vh;
-        height: 60vh;
+        width: 90vw;
+        height: 50vh;
     }
 
     .cardExpertise h3{
@@ -314,7 +348,7 @@ a{
 
     #portfolioShowcase h1{
         color: #1e1e1e;
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
     }
 
@@ -322,16 +356,40 @@ a{
         width: 90vw;
         margin: 0px 20px;
         display: grid;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         grid-template-columns: auto;
     }
 
     .portoCard{
-        width: 80vw;
-        height: 30vh;
+        width: 85vw;
+        height: 35vh;
         border-radius: 25px;
         margin: 20px;
+    }
+
+    #footer{
+        background-color: #1e1e1e;
+        border-radius: 25px 25px 0 0;
+        margin: 0px 20px;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+        color: white;
+    }
+    
+    #footer h3{
+        color: white;
+    }
+    
+    #footer a{
+        background-color: white;
+        color: #1e1e1e;
+        padding: 3px 7px;
+        border-radius: 10px;
     }
 
   }
